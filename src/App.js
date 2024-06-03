@@ -13,6 +13,7 @@ const App = () => {
   const [expense, setExpense] = useState(0);
   const [total, setTotal] = useState(0);
 
+  
   useEffect(() => {
     const amountExpense = transactionsList
       .filter((item) => item.expense)
